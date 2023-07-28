@@ -3,4 +3,4 @@ WORKDIR /src
 RUN pip install flask
 COPY . .
 EXPOSE 9999
-CMD python server.py
+CMD python myapp.py
